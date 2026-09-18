@@ -12,7 +12,7 @@ A dual-window Windows Forms application created in C# that simulates a real-time
 * **Auto-Generating Queue Numbers:** Generates incremental queue numbers starting from `P - 10001` upon button press.
 * **Dual-Form Architecture:**
   * **`QueuingForm`:** Customer-facing interface to generate and view the latest assigned queue ticket.
-  * **`CashierWindowQueueForm`:** Cashier-facing terminal displaying the active waiting list in FIFO (First-In, First-Out) sequence[cite: 1, 2].
+  * **`CashierWindowQueueForm`:** Cashier-facing terminal displaying the active waiting list in FIFO (First-In, First-Out) sequence.
 * **Real-Time Sync (Challenge Exercise):** Implements a Windows Forms `Timer` running on a 1-second interval to automatically update the queue display without requiring manual refreshes.
 * **Queue Servicing:** Features a `Next` action button to dequeue/serve the front student in the queue.
 * **Dark Mode Interface:** Modern, high-contrast dark theme styling across all controls and forms.
@@ -22,7 +22,7 @@ A dual-window Windows Forms application created in C# that simulates a real-time
 ## Technical Overview
 
 * **Language:** C#
-* **Framework:** .NET Framework (Windows Forms)[cite: 1, 2]
+* **Framework:** .NET Framework (Windows Forms)
 * **Key Data Structure:** `System.Collections.Generic.Queue<string>`
 * **Display Mechanism:** `System.Windows.Forms.ListView`
 
