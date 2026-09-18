@@ -2,6 +2,9 @@
 
 A dual-window Windows Forms application created in C# that simulates a real-time queue management system for a cashier service. The program allows customers to generate unique queue numbers while enabling a cashier station to monitor and serve incoming queue tokens in real time.
 
+<img width="1032" height="441" alt="image" src="https://github.com/user-attachments/assets/7e351940-b276-4d27-84b3-6bb6f0323e6c" />
+
+
 ---
 
 ## Features
